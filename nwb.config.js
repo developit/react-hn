@@ -16,6 +16,10 @@ module.exports = {
       define: {
         __VERSION__: JSON.stringify(require('./package.json').version)
       }
-    }    
+    },
+    aliases: {
+      'react': 'preact-compat',
+      'react-dom': 'preact-compat'
+    }
   }
 }
